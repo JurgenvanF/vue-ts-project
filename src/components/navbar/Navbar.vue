@@ -8,6 +8,7 @@ import "./Navbar.scss";
     <div class="navbaritems">
       <NavbarItem path="/" name="Home" />
       <NavbarItem path="/list" name="List" />
+      <NavbarItem path="/counter" name="Counter" />
     </div>
   </nav>
 </template>

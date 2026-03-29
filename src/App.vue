@@ -6,5 +6,7 @@ import Navbar from "./components/navbar/Navbar.vue";
   <div class="navbar">
     <Navbar />
   </div>
-  <router-view />
+  <div class="content">
+    <router-view />
+  </div>
 </template>
