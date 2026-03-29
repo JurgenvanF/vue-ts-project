@@ -7,3 +7,20 @@ nav {
   display: flex;
   gap: 10px;
 }
+
+.hamburger {
+  display: none;
+  color: #ecf0f1;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .navbaritems {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}

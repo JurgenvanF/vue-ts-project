@@ -2,10 +2,8 @@
 import "./Counter.scss";
 import { ref } from "vue";
 
-// reactive counter variable
 const count = ref(0);
 
-// functions to increment and decrement
 function increment() {
   count.value++;
 }
