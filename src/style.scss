@@ -6,10 +6,21 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .navbar {
   width: 100%;
 }
 
 .content {
   padding: 0 10px;
+  flex: 1;
+}
+
+.footer-container {
+  margin-top: 10px;
 }
