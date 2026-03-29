@@ -7,7 +7,7 @@ import "./Navbar.scss";
   <nav>
     <div class="navbaritems">
       <NavbarItem path="/" name="Home" />
-      <NavbarItem path="/about" name="About" />
+      <NavbarItem path="/list" name="List" />
     </div>
   </nav>
 </template>
